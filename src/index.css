@@ -1,3 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #3E78B2;
+  --secondary: #DCEDFF;
+  --tertiary: #e26d5c;
+  --light: #00072D;
+  --dark: #2f1847;
+  --error: rgb(99, 0, 0);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

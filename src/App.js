@@ -1,17 +1,31 @@
 import React from 'react';
 
-import Nav from './components/Nav'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
+import React from 'react';
+import Navigation from './components/Navigation'
+import Header from './components/Header';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+// import logo from './logo.svg';
+import './App.css';
+import Footer from './components/Footer';
 
 function App() {
+  
+  
   return (
-    <div className='navBar'>
-      <Nav />
-      <div>
-        <About />
-      </div>
-      <Portfolio />
+    <div>
+      <Header></Header>
+      <Navigation></Navigation>    
+      <main>
+        <About></About>
+        <Portfolio></Portfolio>
+      
+        <Resume></Resume>
+        <Contact></Contact>
+      </main>
+      <Footer></Footer>
     </div>
   );
 }
