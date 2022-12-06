@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.81c5c190.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.abe28627.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.abe28627.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.24f6fbd3.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.24f6fbd3.js.map",
+    "static/js/2.26ab9f10.chunk.js": "/React-Portfolio/static/js/2.26ab9f10.chunk.js",
+    "static/js/2.26ab9f10.chunk.js.map": "/React-Portfolio/static/js/2.26ab9f10.chunk.js.map",
+    "static/js/3.f5952b9c.chunk.js": "/React-Portfolio/static/js/3.f5952b9c.chunk.js",
+    "static/js/3.f5952b9c.chunk.js.map": "/React-Portfolio/static/js/3.f5952b9c.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "service-worker.js.LICENSE.txt": "/React-Portfolio/service-worker.js.LICENSE.txt",
+    "service-worker.js.map": "/React-Portfolio/service-worker.js.map",
+    "static/css/main.81c5c190.chunk.css.map": "/React-Portfolio/static/css/main.81c5c190.chunk.css.map",
+    "static/js/2.26ab9f10.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.26ab9f10.chunk.js.LICENSE.txt",
+    "static/media/Real-Paul.c0102492.jpg": "/React-Portfolio/static/media/Real-Paul.c0102492.jpg",
+    "static/media/Resume.fa2870ba.pdf": "/React-Portfolio/static/media/Resume.fa2870ba.pdf",
+    "static/media/magic-trav.b713db58.png": "/React-Portfolio/static/media/magic-trav.b713db58.png",
+    "static/media/note-taker.baa045f4.png": "/React-Portfolio/static/media/note-taker.baa045f4.png",
+    "static/media/runy-buddy.851663db.png": "/React-Portfolio/static/media/runy-buddy.851663db.png",
+    "static/media/time-quiz.9bb794de.png": "/React-Portfolio/static/media/time-quiz.9bb794de.png",
+    "static/media/weather-d.6060b6bc.png": "/React-Portfolio/static/media/weather-d.6060b6bc.png",
+    "static/media/wrk-day.3c2a6ab0.png": "/React-Portfolio/static/media/wrk-day.3c2a6ab0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24f6fbd3.js",
+    "static/js/2.26ab9f10.chunk.js",
+    "static/css/main.81c5c190.chunk.css",
+    "static/js/main.abe28627.chunk.js"
+  ]
+}
