@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 import runBud from '../../img/runy-buddy.png'
 import weatherD from '../../img/weather-d.png'
@@ -40,7 +40,7 @@ export default function portfolio() {
 
         },
         {
-            projectName: "Note Taker",
+            projectName: "Work Day Scheduler",
             projectDescription: "Express.js/JSON",
             projectImg: work,
         },
@@ -60,12 +60,12 @@ export default function portfolio() {
     <p className="card-text">{ projects[0].projectDescription}</p>
   <img className="card-img" src={ projects[0].projectImg } alt="Card image"></img>
   <div className="card-img-overlay">
-    <Link to={{ pathname: "https://github.com/Plovato97/Run-Buddy" }} target="_blank">
+    <a href="https://github.com/Plovato97/Run-Buddy" target="_blank">
     <button>GitHub</button>
-  </Link>
-  <Link to={{ pathname: "http://plovato97.github.io/run-buddy" }} target="_blank">
+  </a>
+  <a href="http://plovato97.github.io/run-buddy" target="_blank">
     <button>Website</button>
-  </Link>
+  </a>
   </div>
 </div>
 <div className="col-lg-4 card bg-dark text-white">
@@ -73,12 +73,12 @@ export default function portfolio() {
     <p className="card-text">{ projects[1].projectDescription}</p>
   <img className="card-img" src={ projects[1].projectImg } alt="Card image"></img>
   <div className="card-img-overlay">
-  <Link to={{ pathname: "https://github.com/Plovato97/Run-Buddy" }} target="_blank">
+  <a href="https://github.com/Plovato97/Time-Quiz" target="_blank">
     <button>GitHub</button>
-  </Link>
-  <Link to={{ pathname: "http://plovato97.github.io/run-buddy" }} target="_blank">
+  </a>
+  <a href="https://plovato97.github.io/Time-Quiz/" target="_blank">
     <button>Website</button>
-  </Link>
+  </a>
   </div>
 </div>
  <div className="col-lg-4 card bg-dark text-white">
@@ -86,12 +86,12 @@ export default function portfolio() {
     <p className="card-text">{ projects[2].projectDescription}</p>
    <img className="card-img" src={ projects[2].projectImg } alt="Card image"></img>
   <div className="card-img-overlay">
-    <Link to={{ pathname: "https://github.com/Plovato97/Run-Buddy" }} target="_blank">
+    <a href="https://github.com/Plovato97/weather-dash" target="_blank">
     <button>GitHub</button>
-  </Link>
-  <Link to={{ pathname: "https://plovato97.github.io/Run-Buddy/" }} target="_blank">
+  </a>
+  <a href="https://plovato97.github.io/weather-dash/" target="_blank">
     <button>Website</button>
-  </Link>
+  </a>
   </div>
 </div>
 
@@ -100,12 +100,12 @@ export default function portfolio() {
      <p className="card-text">{ projects[3].projectDescription}</p>
   <img className="card-img" src={ projects[3].projectImg } alt="Card image"></img>
   <div className="card-img-overlay">
-     <Link to={{ pathname: "https://github.com/Plovato97/Run-Buddy" }} target="_blank">
+     <a href="https://github.com/Plovato97/Notes-Taker" target="_blank">
     <button>GitHub</button>
-  </Link>
-  <Link to={{ pathname: "http://plovato97.github.io/run-buddy" }} target="_blank">
+  </a>
+  <a href="https://note-taking-pl.herokuapp.com/" target="_blank">
     <button>Website</button>
-  </Link>
+  </a>
   </div>
  </div>
 <div className="col-lg-4 card bg-dark text-white">
@@ -113,12 +113,12 @@ export default function portfolio() {
     <p className="card-text">{ projects[4].projectDescription}</p>
    <img className="card-img" src={ projects[4].projectImg } alt="Card image"></img>
    <div className="card-img-overlay">
-    <Link to={{ pathname: "https://github.com/Plovato97/Run-Buddy" }} target="_blank">
+    <a href="https://github.com/Plovato97/Day-Scheduler" target="_blank">
     <button>GitHub</button>
-  </Link>
-  <Link to={{ pathname: "http://plovato97.github.io/run-buddy" }} target="_blank">
+    </a>
+  <a href="https://plovato97.github.io/Day-Scheduler/" target="_blank">
     <button>Website</button>
-  </Link>
+  </a>
   </div>
  </div>
  <div className="col-lg-4 card bg-dark text-white">
@@ -126,12 +126,12 @@ export default function portfolio() {
     <p className="card-text">{ projects[5].projectDescription}</p>
    <img className="card-img" src={ projects[5].projectImg } alt="Card image"></img>
    <div className="card-img-overlay">
-    <Link to={{ pathname: "https://github.com/Plovato97/Run-Buddy" }} target="_blank">
+    <a href="https://github.com/Plovato97/Magic-trav" target="_blank">
     <button>GitHub</button>
-  </Link>
-  <Link to={{ pathname: "http://plovato97.github.io/run-buddy" }} target="_blank">
+  </a>
+  <a href="https://plovato97.github.io/Magic-trav/" target="_blank">
     <button>Website</button>
-  </Link>
+  </a>
   </div>
  </div>
  </div>
