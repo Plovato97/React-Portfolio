@@ -2,7 +2,7 @@ import React from "react";
 import { a } from "react-router-dom";
 
 import runBud from '../../img/runy-buddy.png'
-import weatherD from '../../img/weather-d.png'
+import shopIn from '../../img/shop.png'
 import notes from '../../img/note-taker.png'
 import timeQ from '../../img/time-quiz.png'
 import work from '../../img/wrk-day.png'
@@ -26,9 +26,9 @@ export default function portfolio() {
 
         },
         {
-            projectName: "Weather Dashboard",
-            projectDescription: "HTML/CSS",
-            projectImg: weatherD,
+            projectName: "Shop-n-It",
+            projectDescription: "React/ MERN",
+            projectImg: shopIn,
 
 
         },
